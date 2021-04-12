@@ -1,0 +1,35 @@
+{
+    "name": "ip3",
+    "version": "1.0.0",
+    "description": "GCU Racing",
+    "main": "app.js",
+    "scripts": {
+        "start": "node ./bin/www",
+        "postinstall": "opencollective-postinstall || true",
+        "app": "node ./bin/www --app"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "apikeygen": "^1.1.0",
+        "array-tools": "^2.0.9",
+        "bcrypt-nodejs": "^0.0.3",
+        "cloudinary": "^1.25.1",
+        "cookie-parser": "^1.4.5",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "file-system": "^2.2.2",
+        "formidable": "^1.2.2",
+        "guid": "^0.0.12",
+        "lodash": "^4.17.21",
+        "mongoose": "^5.12.3",
+        "morgan": "^1.10.0",
+        "mv": "^2.1.1",
+        "newsapi": "^2.4.1",
+        "nodemon": "^2.0.7",
+        "request": "^2.88.2",
+        "socket.io": "^4.0.1",
+        "time-ago": "^0.2.1"
+    }
+}
