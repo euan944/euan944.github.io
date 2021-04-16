@@ -14,7 +14,7 @@ router.get("/new", function(req, res, next) {
 });
 
 /* GET login page. */
-router.get("/login", function(req, res, next) {
+router.get("/getin", function(req, res, next) {
     res.render("auth/login", {
         title: req.app.conf.name,
         error: false
@@ -26,7 +26,7 @@ router.post("/new", formParser, function(req, res, next) {
         if (!result) {
             res.render("auth/signup", {
                 title: req.app.conf.name,
-                error: "User Details Incorrect."
+                error: "Bad user details."
             });
         } else {
             req.session._id = result._id;
@@ -36,12 +36,12 @@ router.post("/new", formParser, function(req, res, next) {
     });
 });
 
-router.post("/login", formParser, function(req, res, next) {
+router.post("/getin", formParser, function(req, res, next) {
     db.checkUser(req.body, (error, result) => {
         if (!result) {
             res.render("auth/login", {
                 title: req.app.conf.name,
-                error: "Username or Password Incorrect."
+                error: "Bad username or password."
             });
         } else {
             req.session._id = result._id;
@@ -53,7 +53,7 @@ router.post("/login", formParser, function(req, res, next) {
         }
     });
 });
-router.get("/logout", function(req, res, next) {
+router.get("/out", function(req, res, next) {
     req.session.destroy(() => {
         res.redirect("/?action=logout");
     });

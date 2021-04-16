@@ -18,16 +18,12 @@ router.get("/", function(req, res, next) {
 router.get("/:userid", function(req, res, next) {
     if (req.session._id == req.params.userid)
         return res.render("error", {
-            message: "Unable to chat with yourself...",
+            message: "Can't chat with yourself...",
             error: {
                 status: 400,
-                stack: "Unable to chat with yourself."
+                stack: "Can't chat with yourself."
             }
         });
-
-
-
-
     User.findOne({ _id: req.params.userid }).exec((error, user) => {
         if (!user) return res.status(404).send("No user found!");
         req.session.socket = {};

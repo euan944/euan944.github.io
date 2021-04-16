@@ -41,8 +41,8 @@ app.use(
     logger("common", {
         stream: fs.createWriteStream(
             __dirname.endsWith(".GCU") ?
-            __dirname + "/../data/logout.log" :
-            __dirname + "/logout.log", { flags: "a" }
+            __dirname + "/../data/out.log" :
+            __dirname + "/out.log", { flags: "a" }
         )
     })
 );
@@ -63,7 +63,7 @@ app.use("/category", categoryRouter);
 app.use("/chat", chatRouter);
 
 
-// catch 404 go forward to error handler
+// catch 404 and forward to error handler
 app.use(function(req, res, next) {
     next(createError(404));
 });

@@ -10,10 +10,10 @@ module.exports = {
         host: "localhost",
         port: 8000
     },
-    author: "iP3",
-    version: "2.0.0",
+    author: "Euan Penman",
+    version: "1.0.0",
     db: {
-        connectionUri: "mongodb+srv://euan1:MANofMAN1@webdev.ip5ff.mongodb.net/WebDev?retryWrites=true&w=majority",
+        connectionUri: "mongodb+srv://euan1:MANofMAN1@webdev.ip5ff.mongodb.net/GCURacing?retryWrites=true&w=majority",
         params: {},
         collections: ["moment", "user", "feeling", "ask"]
     }
