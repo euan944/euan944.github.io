@@ -13,7 +13,7 @@ module.exports = {
     author: "Euan Penman",
     version: "1.0.0",
     db: {
-        connectionUri: "mongodb+srv://euan1:MANofMAN1@webdev.ip5ff.mongodb.net/GCURacing?retryWrites=true&w=majority",
+        connectionUri: "mongodb+srv://ip3:ip3@gcuracing.00pps.mongodb.net/GCURacing?retryWrites=true&w=majority",
         params: {},
         collections: ["moment", "user", "feeling", "ask"]
     }
