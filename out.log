@@ -16,7 +16,7 @@
 ::1 - - [12/Apr/2021:15:13:14 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:13:14 +0000] "GET /javascripts/connect.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:13:14 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::1 - - [12/Apr/2021:15:13:20 +0000] "POST /account/getin HTTP/1.1" 302 46
+::1 - - [12/Apr/2021:15:13:20 +0000] "POST /account/login HTTP/1.1" 302 46
 ::1 - - [12/Apr/2021:15:13:21 +0000] "GET / HTTP/1.1" 200 54778
 ::1 - - [12/Apr/2021:15:13:21 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:13:21 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -307,7 +307,7 @@
 ::1 - - [12/Apr/2021:15:20:33 +0000] "GET /images/profile_pictures/euan1.JPG?cache=0.6258892645841183 HTTP/1.1" 200 12341014
 ::1 - - [12/Apr/2021:15:20:33 +0000] "GET /images/profile_pictures/euan1.JPG?cache=0.2392252092326459 HTTP/1.1" 200 12341014
 ::1 - - [12/Apr/2021:15:20:33 +0000] "GET /images/profile_pictures/euan1.JPG?cache=0.10943580186750634 HTTP/1.1" 200 12341014
-::1 - - [12/Apr/2021:15:20:34 +0000] "GET /account/out HTTP/1.1" 302 74
+::1 - - [12/Apr/2021:15:20:34 +0000] "GET /account/logout HTTP/1.1" 302 74
 ::1 - - [12/Apr/2021:15:20:34 +0000] "GET /?action=logout HTTP/1.1" 200 2637
 ::1 - - [12/Apr/2021:15:20:34 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:20:34 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -319,7 +319,7 @@
 ::1 - - [12/Apr/2021:15:20:35 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:20:35 +0000] "GET /javascripts/connect.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:20:35 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::1 - - [12/Apr/2021:15:20:43 +0000] "POST /account/getin HTTP/1.1" 302 46
+::1 - - [12/Apr/2021:15:20:43 +0000] "POST /account/login HTTP/1.1" 302 46
 ::1 - - [12/Apr/2021:15:20:43 +0000] "GET / HTTP/1.1" 200 49743
 ::1 - - [12/Apr/2021:15:20:43 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:20:43 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -590,7 +590,7 @@
 ::ffff:127.0.0.1 - - [12/Apr/2021:15:37:50 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:15:37:50 +0000] "GET /javascripts/connect.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:37:50 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::1 - - [12/Apr/2021:15:37:58 +0000] "POST /account/getin HTTP/1.1" 302 46
+::1 - - [12/Apr/2021:15:37:58 +0000] "POST /account/login HTTP/1.1" 302 46
 ::1 - - [12/Apr/2021:15:37:59 +0000] "GET / HTTP/1.1" 200 49756
 ::1 - - [12/Apr/2021:15:37:59 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:37:59 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -786,7 +786,7 @@
 ::1 - - [12/Apr/2021:15:39:48 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:39:48 +0000] "GET /javascripts/connect.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:39:48 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::1 - - [12/Apr/2021:15:39:55 +0000] "POST /account/getin HTTP/1.1" 302 46
+::1 - - [12/Apr/2021:15:39:55 +0000] "POST /account/login HTTP/1.1" 302 46
 ::1 - - [12/Apr/2021:15:39:56 +0000] "GET / HTTP/1.1" 200 49755
 ::1 - - [12/Apr/2021:15:39:56 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:15:39:56 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -985,7 +985,7 @@
 ::1 - - [12/Apr/2021:16:01:58 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:01:58 +0000] "GET /javascripts/connect.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:01:58 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::1 - - [12/Apr/2021:16:02:14 +0000] "POST /account/getin HTTP/1.1" 302 46
+::1 - - [12/Apr/2021:16:02:14 +0000] "POST /account/login HTTP/1.1" 302 46
 ::1 - - [12/Apr/2021:16:02:14 +0000] "GET / HTTP/1.1" 200 54778
 ::1 - - [12/Apr/2021:16:02:15 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:02:15 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -1114,7 +1114,7 @@
 ::1 - - [12/Apr/2021:16:06:48 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:06:48 +0000] "GET /javascripts/connect.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:06:48 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::1 - - [12/Apr/2021:16:06:55 +0000] "POST /account/getin HTTP/1.1" 302 46
+::1 - - [12/Apr/2021:16:06:55 +0000] "POST /account/login HTTP/1.1" 302 46
 ::1 - - [12/Apr/2021:16:06:56 +0000] "GET / HTTP/1.1" 200 54779
 ::1 - - [12/Apr/2021:16:06:56 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:06:56 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -1220,7 +1220,7 @@
 ::1 - - [12/Apr/2021:16:08:41 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:08:41 +0000] "GET /javascripts/connect.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:08:41 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::1 - - [12/Apr/2021:16:08:48 +0000] "POST /account/getin HTTP/1.1" 302 46
+::1 - - [12/Apr/2021:16:08:48 +0000] "POST /account/login HTTP/1.1" 302 46
 ::1 - - [12/Apr/2021:16:08:48 +0000] "GET / HTTP/1.1" 200 54777
 ::1 - - [12/Apr/2021:16:08:48 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:08:48 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -1329,7 +1329,7 @@
 ::1 - - [12/Apr/2021:16:10:20 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:10:20 +0000] "GET /javascripts/connect.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:10:20 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::1 - - [12/Apr/2021:16:10:26 +0000] "POST /account/getin HTTP/1.1" 302 46
+::1 - - [12/Apr/2021:16:10:26 +0000] "POST /account/login HTTP/1.1" 302 46
 ::1 - - [12/Apr/2021:16:10:26 +0000] "GET / HTTP/1.1" 200 54781
 ::1 - - [12/Apr/2021:16:10:26 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:10:26 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -1449,7 +1449,7 @@
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:18:00 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:18:00 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:18:00 +0000] "GET /favicon.ico HTTP/1.1" 404 3178
-::ffff:127.0.0.1 - - [12/Apr/2021:16:18:03 +0000] "POST /account/getin HTTP/1.1" 302 46
+::ffff:127.0.0.1 - - [12/Apr/2021:16:18:03 +0000] "POST /account/login HTTP/1.1" 302 46
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:18:03 +0000] "GET / HTTP/1.1" 200 54775
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:18:04 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:18:04 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -1565,7 +1565,7 @@
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:19:50 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:19:50 +0000] "GET /javascripts/connect.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:19:50 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::ffff:127.0.0.1 - - [12/Apr/2021:16:19:52 +0000] "POST /account/getin HTTP/1.1" 302 46
+::ffff:127.0.0.1 - - [12/Apr/2021:16:19:52 +0000] "POST /account/login HTTP/1.1" 302 46
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:19:52 +0000] "GET / HTTP/1.1" 200 54779
 ::1 - - [12/Apr/2021:16:19:52 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:19:52 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -1670,7 +1670,7 @@
 ::1 - - [12/Apr/2021:16:22:00 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:22:00 +0000] "GET /javascripts/connect.js HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:22:00 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::1 - - [12/Apr/2021:16:22:02 +0000] "POST /account/getin HTTP/1.1" 302 46
+::1 - - [12/Apr/2021:16:22:02 +0000] "POST /account/login HTTP/1.1" 302 46
 ::1 - - [12/Apr/2021:16:22:03 +0000] "GET / HTTP/1.1" 200 54781
 ::1 - - [12/Apr/2021:16:22:03 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:16:22:03 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -1779,7 +1779,7 @@
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:23:10 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 200 127303
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:23:11 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:23:11 +0000] "GET /favicon.ico HTTP/1.1" - -
-::ffff:127.0.0.1 - - [12/Apr/2021:16:23:13 +0000] "POST /account/getin HTTP/1.1" 302 46
+::ffff:127.0.0.1 - - [12/Apr/2021:16:23:13 +0000] "POST /account/login HTTP/1.1" 302 46
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:23:13 +0000] "GET / HTTP/1.1" 200 54782
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:23:13 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:23:13 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -1927,7 +1927,7 @@
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:23:33 +0000] "GET /favicon.ico HTTP/1.1" - -
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:24:06 +0000] "GET /feeds/euan1_cb0b0cab-a7a5-1f33-0b26-59d60fd23d31P2280055.JPG HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:24:06 +0000] "GET /feeds/euan1_a181f62a-c4fd-f116-ec93-5c5f92fdb633P3310002.JPG HTTP/1.1" 304 -
-::ffff:127.0.0.1 - - [12/Apr/2021:16:29:23 +0000] "GET /account/out HTTP/1.1" 302 74
+::ffff:127.0.0.1 - - [12/Apr/2021:16:29:23 +0000] "GET /account/logout HTTP/1.1" 302 74
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:29:24 +0000] "GET /?action=logout HTTP/1.1" 200 2637
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:29:24 +0000] "GET /javascripts/stroll.min.js HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:16:29:24 +0000] "GET /javascripts/jquery.min.js HTTP/1.1" 304 -
@@ -1986,7 +1986,7 @@
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:05:25 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 200 127303
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:05:25 +0000] "GET /javascripts/connect.js HTTP/1.1" 200 21
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:05:25 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::ffff:127.0.0.1 - - [12/Apr/2021:17:05:30 +0000] "POST /account/getin HTTP/1.1" 302 46
+::ffff:127.0.0.1 - - [12/Apr/2021:17:05:30 +0000] "POST /account/login HTTP/1.1" 302 46
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:05:30 +0000] "GET / HTTP/1.1" 200 54779
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:05:30 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:05:30 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -2082,7 +2082,7 @@
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:07:03 +0000] "GET /images/profile_pictures/euan1.JPG?cache=0.9705339440993965 HTTP/1.1" 200 9751162
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:07:03 +0000] "GET /images/profile_pictures/euan1.JPG?cache=0.17729214201520604 HTTP/1.1" 200 9751162
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:07:03 +0000] "GET /favicon.ico HTTP/1.1" 404 3178
-::ffff:127.0.0.1 - - [12/Apr/2021:17:07:05 +0000] "GET /account/out HTTP/1.1" 302 74
+::ffff:127.0.0.1 - - [12/Apr/2021:17:07:05 +0000] "GET /account/logout HTTP/1.1" 302 74
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:07:05 +0000] "GET /?action=logout HTTP/1.1" 200 2637
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:07:05 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:07:05 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -2212,7 +2212,7 @@
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:10:15 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:10:15 +0000] "GET /javascripts/connect.js HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:10:15 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::ffff:127.0.0.1 - - [12/Apr/2021:17:10:30 +0000] "POST /account/getin HTTP/1.1" 302 46
+::ffff:127.0.0.1 - - [12/Apr/2021:17:10:30 +0000] "POST /account/login HTTP/1.1" 302 46
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:10:30 +0000] "GET / HTTP/1.1" 200 54780
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:10:30 +0000] "GET /stylesheets/style.css HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [12/Apr/2021:17:10:30 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 200 127303
@@ -2624,7 +2624,7 @@
 ::1 - - [12/Apr/2021:18:38:50 +0000] "GET /javascripts/jquery.min.js HTTP/1.1" 404 3455
 ::1 - - [12/Apr/2021:18:38:51 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 404 3455
 ::1 - - [12/Apr/2021:18:38:51 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::1 - - [12/Apr/2021:18:38:52 +0000] "POST /account/getin HTTP/1.1" 302 46
+::1 - - [12/Apr/2021:18:38:52 +0000] "POST /account/login HTTP/1.1" 302 46
 ::1 - - [12/Apr/2021:18:38:52 +0000] "GET / HTTP/1.1" 200 54944
 ::1 - - [12/Apr/2021:18:38:53 +0000] "GET /stylesheets/flatly.bootstrap.min.css HTTP/1.1" 304 -
 ::1 - - [12/Apr/2021:18:38:53 +0000] "GET /stylesheets/font/css/all.min.css HTTP/1.1" 304 -
@@ -2681,7 +2681,7 @@
 ::1 - - [12/Apr/2021:18:38:53 +0000] "GET /images/profile_pictures/euan1.JPG?cache=0.6026490131419064 HTTP/1.1" 404 3455
 ::1 - - [12/Apr/2021:18:38:53 +0000] "GET /javascripts/socket.io.js HTTP/1.1" 404 3455
 ::1 - - [12/Apr/2021:18:38:53 +0000] "GET /images/logo/logo.png HTTP/1.1" 304 -
-::1 - - [12/Apr/2021:18:39:01 +0000] "GET /account/out HTTP/1.1" 302 74
+::1 - - [12/Apr/2021:18:39:01 +0000] "GET /account/logout HTTP/1.1" 302 74
 ::1 - - [12/Apr/2021:18:39:02 +0000] "GET /?action=logout HTTP/1.1" 200 2674
 ::1 - - [12/Apr/2021:18:39:02 +0000] "GET /javascripts/stroll.min.js HTTP/1.1" 404 3455
 ::1 - - [12/Apr/2021:18:39:02 +0000] "GET /javascripts/dom.js HTTP/1.1" 304 -

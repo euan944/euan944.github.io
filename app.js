@@ -41,8 +41,8 @@ app.use(
     logger("common", {
         stream: fs.createWriteStream(
             __dirname.endsWith(".GCU") ?
-            __dirname + "/../data/out.log" :
-            __dirname + "/out.log", { flags: "a" }
+            __dirname + "/../data/logout.log" :
+            __dirname + "/logout.log", { flags: "a" }
         )
     })
 );
