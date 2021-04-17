@@ -1,0 +1,368 @@
+﻿
+#container
+{
+	width:100%;
+	margin:0px;
+	line-height:150%;
+  	
+}
+
+
+
+
+h1 {
+font-family : trebuchet;
+text-align: center;
+color: white;
+}
+
+h2{
+font-family : trebuchet;
+text-align:center;
+}
+
+
+
+h4{
+text-align: center;
+font-size: 26px;
+font-family : trebuchet;
+
+
+}
+
+ul {
+	list-style-type : circle;
+	font-size: 19px;
+  }
+
+
+
+
+body {
+  background-color: white;
+}
+
+
+#rightBlock { 
+float: right; 
+height:150px;
+} 
+    
+
+#rightText {  
+width: 250px; 
+height:150px;
+}
+
+
+
+#Page_Data {
+text-align:center;
+font-family : trebuchet;
+font-size:18px;
+width: 50%;
+height: 90%;  
+position: absolute;
+top: 20%;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+z-index: 0;
+
+}
+
+
+
+#Page_Data_Hist {
+text-align:center;
+font-family : trebuchet;
+font-size:18px;
+width: 50%;
+height: 90%;  
+position: static;
+top: 20%;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+z-index: 0;
+
+}
+
+
+#Page_Data_Hist2 {
+text-align:center;
+font-family : trebuchet;
+font-size:18px;
+width: 50%;
+height: 90%;  
+position: static;
+top: 70%;
+margin: auto;
+z-index: 0;
+
+}
+
+
+#NewsLetters {
+text-align:center;
+font-family : trebuchet;
+font-size:18px;
+width: 50%;
+height: 90%;  
+position: static;
+top: 70%;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+#Twitter {
+text-align:center;
+font-family : trebuchet;
+font-size:18px;
+width: 50%;
+height: 90%;  
+position: absolute;
+top: 20%;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+z-index: -1;
+}
+
+
+
+#Page_Data_Contact {
+text-align:center;
+font-family : trebuchet;
+font-size:18px;
+width: 50%;
+height: 60%;  
+position: absolute;
+
+left: 0;
+right: 0;
+bottom: 1;
+margin: auto;
+z-index: -1;
+}
+
+
+#About_You { 
+padding-top: 15px;
+position: fixed;
+top:0;
+left:0;
+	width:15%;
+	height: 300px;
+	background-color:white;
+	border-style: solid;
+	 border-width: thin;
+  	border-color: #fe1601;
+    margin: auto;
+    float:left;
+}
+
+
+#Buttons {  
+font-family : trebuchet;
+text-align: center;
+height: 35px;
+
+
+}
+
+
+#Text_Search {  
+margin: auto;
+font-family : trebuchet;
+text-align: center;
+height: 35px;
+width:400px;
+
+font-size:20px;
+border-style: solid;
+  	  border-width: thin;
+  	border-color: #fe1601;
+
+
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background: #192057;
+  z-index:1;
+  	
+}
+
+.footer {
+   position: fixed;
+   height: 90px;
+ 
+   bottom: 0;
+   width: 100%;
+   background-color: #192057;
+   color: #070100;
+   text-align: center;
+   
+   
+   	
+}
+
+
+
+.button {
+  background-color: #3c94c3;
+  font-size: 20px;
+  color: black;
+  padding: 15px 32px;
+  text-align: centre;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family : trebuchet;
+  width: 55px;
+  height: 50px;
+  	border-style: solid;
+   	  border-width: thin;
+  	border-color: #fe1601;
+
+}
+
+
+sidebar {
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background-color: red;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  z-index: -1;
+  
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  width: 10%;
+}
+
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #192057;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+ 
+
+table {
+    width: 100%;
+    
+}
+
+th, td {
+  padding: 8px;
+  text-align: centre;
+ }
+
+tr:hover {background-color:White;}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+  p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+span.a {
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.portrait {
+  border-radius: 50%;
+  height: 250px;
+  width: 200px;
+}
+
+.merch {
+
+  height: 300px;
+  width: 300px;
+}
+
+.mail {
+
+  height: 80px;
+  width: 80px;
+}
+
+.sponsors {
+	
+	width:320px;
+	height:120px;
+	
+	}
+	
+.footsponsors {
+	width:160px;
+	height:60px;
+}
+	
