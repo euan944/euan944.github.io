@@ -4,7 +4,7 @@
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <title>Teams History</title>
-
+    <script src="../javascripts/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/Oevrall.css" />
 </head>
 
@@ -20,16 +20,22 @@
         </br>
         </br>
         </br>
-
         <div class="sidebar">
-            <a href="HomePage.html">Home</a>
-            <a href="OurTeam.html">Our Team</a>
-            <a href="TeamHistory.html">Team History</a>
-            <a href="SocialMediaPage.html">Social Media</a>
-            <a href="Contact Us.html">Donate </a>
-            <a href="OurSponsors.html">Our Sponsors </a>
-            <a href="/" class="btn btn-secondary btn-block">Login</a>
+            <input type="button" id="btnMobileNav" value="☰"></input>
+            <nav>
+                <ul>
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li> <a href="OurTeam.html">Our Team</a></li>
+                    <li><a href="TeamHistory.html">Team History</a></li>
+                    <li> <a href="SocialMediaPage.html">Social Media</a></li>
+                    <li> <a href="Merch.html">Donate </a></li>
+                    <li> <a href="OurSponsors.html">Our Sponsors </a></li>
+                    <li> <a href="/" class="btn btn-secondary btn-block">Login</a></li>
+                </ul>
+            </nav>
         </div>
+        <script type="text/javascript" src="../javascripts/MoblieNavBar.js"></script>
+
 
 
 
@@ -100,19 +106,22 @@
 
                 <tr>
                     <td>
-                        <a href="https://www.gcustudents.co.uk/"><img src="../images/img/StudentsAssociation.png" alt="Students Association Logo" style="width:160px;height:60px;"></a>
+                        <a href="https://www.gcustudents.co.uk/"><img class="footsponsors" src="../images/img/StudentsAssociation.png" alt="Students Association Logo" /></a>
                     </td>
                     <td>
-                        <a href="http://www.safe-cut.com/"><img src="../images/img/SafeCut.png" alt="SafeCut Logo" style="width:160px;height:60px;" /></a>
+                        <a href="http://www.safe-cut.com/"><img class="footsponsors" src="../images/img/SafeCut.png" alt="SafeCut Logo" /></a>
                     </td>
                     <td>
-                        <a href="https://uk.rs-online.com/web/"><img src="../images/img/RsComponents.png" alt="RsComponents Logo" style="width:160px;height:60px;" /></a>
+                        <a href="https://uk.rs-online.com/web/"><img class="footsponsors" src="../images/img/RsComponents.png" alt="RsComponents Logo" /></a>
                     </td>
                 </tr>
             </table>
 
 
         </div>
+
+
+    </div>
 
 </body>
 

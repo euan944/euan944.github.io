@@ -6,6 +6,7 @@
     <title>Home</title>
 
     <link rel="stylesheet" type="text/css" href="../css/Oevrall.css" />
+    <script src="../javascripts/jquery.js"></script>
 </head>
 
 
@@ -22,16 +23,20 @@
         </br>
 
         <div class="sidebar">
-            <a href="HomePage.html">Home</a>
-            <a href="OurTeam.html">Our Team</a>
-            <a href="TeamHistory.html">Team History</a>
-            <a href="SocialMediaPage.html">Social Media</a>
-            <a href="Contact Us.html">Donate </a>
-            <a href="OurSponsors.html">Our Sponsors </a>
-            <a href="/" class="btn btn-secondary btn-block">Login</a>
+            <input type="button" id="btnMobileNav" value="☰"></input>
+            <nav>
+                <ul>
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li> <a href="OurTeam.html">Our Team</a></li>
+                    <li><a href="TeamHistory.html">Team History</a></li>
+                    <li> <a href="SocialMediaPage.html">Social Media</a></li>
+                    <li> <a href="Merch.html">Donate </a></li>
+                    <li> <a href="OurSponsors.html">Our Sponsors </a></li>
+                    <li> <a href="/" class="btn btn-secondary btn-block">Login</a></li>
+                </ul>
+            </nav>
         </div>
-
-
+        <script type="text/javascript" src="../javascripts/MoblieNavBar.js"></script>
 
 
 
@@ -46,8 +51,6 @@
 
 
 
-                <br><br><br>
-
         </div>
 
         <div id="NewsLetters">
@@ -55,25 +58,26 @@
             </br>
             <h2>Download Our Newsletter</h2>
 
-            <a href="../PDF/GCURacing_newsletter_August.pdf" download="Issue 2 August 2019 Newsletter">Issue 2: August 2019 Newsletter</a><span class="a"></span>
-            <a href="../PDF/GCURacing_newsletter_September.pdf" download="Issue 3 September 2019 Newsletter">Issue 3: September 2019 Newsletter </a><span class="a"></span>
-            <a href="../PDF/GCU_Racing_newsletter_4.pdf" download="Issue 4 October 2019 Newsletter">Issue 4: October 2019 Newsletter</a><span class="a"></span>
-            <a href="../PDF/GCURacing_newsletter_5.pdf" download="Issue 5 January 2020 Newsletter">Issue 5: January 2020 Newsletter</a><span class="a"></span>
+            <a href="public/PDF/GCURacing_newsletter_August.pdf" download="Issue 2 August 2019 Newsletter">Issue 2: August 2019 Newsletter</a><span class="a"></span>
+            <a href="public/PDF/GCURacing_newsletter_September.pdf" download="Issue 3 September 2019 Newsletter">Issue 3: September 2019 Newsletter </a><span class="a"></span>
+            <a href="public/PDF/GCU_Racing_newsletter_4.pdf" download="Issue 4 October 2019 Newsletter">Issue 4: October 2019 Newsletter</a><span class="a"></span>
+            <a href="public/PDF/GCURacing_newsletter_5.pdf" download="Issue 5 January 2020 Newsletter">Issue 5: January 2020 Newsletter</a><span class="a"></span>
 
         </div>
 
-        <br><br><br>
+        <br><br>
 
         <div id="Page_Data_Contact">
             <h2 style="height: 24px"> Contact Us</h2>
 
             </br>
             <h2>Glasgow Caledonian University, Cowcadens Road, Glasgow G4 0BA</h2>
+            <br>
+
+            <h2>Or Email us at: racing@gcustudents.co.uk</h2><br>
+            <a href="mailto:racing@gcustudents.co.uk"><img class="mail" src="../images/img/Email.png" alt="Email" /></a>
 
 
-
-
-            <p><a href="mailto:racing@gcustudents.co.uk">Email Us: racing@gcustudents.co.uk </a></p>
         </div>
 
 
@@ -90,7 +94,6 @@
 
 
         </br>
-
 
 
 
@@ -100,19 +103,22 @@
 
                 <tr>
                     <td>
-                        <a href="https://www.gcustudents.co.uk/"><img src="../images/img/StudentsAssociation.png" alt="Students Association Logo" style="width:160px;height:60px;" /></a>
+                        <a href="https://www.gcustudents.co.uk/"><img class="footsponsors" src="../images/img/StudentsAssociation.png" alt="Students Association Logo" /></a>
                     </td>
                     <td>
-                        <a href="http://www.safe-cut.com/"><img src="../images/img/SafeCut.png" alt="SafeCut Logo" style="width:160px;height:60px;" /></a>
+                        <a href="http://www.safe-cut.com/"><img class="footsponsors" src="../images/img/SafeCut.png" alt="SafeCut Logo" /></a>
                     </td>
                     <td>
-                        <a href="https://uk.rs-online.com/web/"><img src="../images/img/RsComponents.png" alt="RsComponents Logo" style="width:160px;height:60px;" /></a>
+                        <a href="https://uk.rs-online.com/web/"><img class="footsponsors" src="../images/img/RsComponents.png" alt="RsComponents Logo" /></a>
                     </td>
                 </tr>
             </table>
 
 
         </div>
+
+
+    </div>
 
 </body>
 

@@ -44,37 +44,32 @@ router.get("/", function(req, res, next) {
     }
 });
 
-
-
-
 router.get('/home', function(req, res) {
     res.redirect('/html/HomePage.html');
 });
 
-
-router.get('/team', function(req, res) {
-    res.redirect('/html/OurTeam.html');
+router.get('/Merch', function(req, res) {
+    res.redirect('/html/Merch.html');
 });
-
 
 router.get('/sponsors', function(req, res) {
     res.redirect('/html/OurSponsors.html');
 });
 
+router.get('/team', function(req, res) {
+    res.redirect('/html/OurTeam.html');
+});
 
 router.get('/social', function(req, res) {
     res.redirect('/html/SocialMediaPage.html');
 });
 
-
+router.get('/sponsorus', function(req, res) {
+    res.redirect('/html/SponsorUs.html');
+});
 router.get('/history', function(req, res) {
     res.redirect('/html/TeamHistory.html');
 });
-
-router.get('/fileshare', function(req, res) {
-    res.redirect('/html/index.html');
-});
-
 
 
 module.exports = router;
