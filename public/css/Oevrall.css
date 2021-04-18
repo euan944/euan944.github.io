@@ -39,7 +39,7 @@ body {
     width: 250px;
     height: 150px;
 }
-
+/*The default contents of the page usually in the centre*/
 #Page_Data {
     text-align: center;
     font-family: trebuchet;
@@ -55,7 +55,24 @@ body {
     z-index: 0;
 }
 
-#Page_Data_Hist {
+/*Page data on the hist page slightly different css to the default, was going to delete and rename as Page_Data_2 but something 
+wasn't sitting right and I ran out of time to figure out what*/
+#Page_Data_Hist2 {
+    text-align: center;
+    font-family: trebuchet;
+    font-size: 18px;
+    width: 50%;
+    height: 90%;
+    position: static;
+    top: 70%;
+    margin: auto;
+    z-index: 0;
+}
+
+/*Page data on the hist page slightly different css to the default, was going to delete and rename as Page_Data_3 but something 
+wasn't sitting right and I ran out of time to figure out what*/
+
+#Page_Data_Hist3 {
     text-align: center;
     font-family: trebuchet;
     font-size: 18px;
@@ -70,18 +87,7 @@ body {
     z-index: 0;
 }
 
-#Page_Data_Hist2 {
-    text-align: center;
-    font-family: trebuchet;
-    font-size: 18px;
-    width: 50%;
-    height: 90%;
-    position: static;
-    top: 70%;
-    margin: auto;
-    z-index: 0;
-}
-
+/*Div for the newsletters download, new tag because of z-index positioning*/
 #NewsLetters {
     text-align: center;
     font-family: trebuchet;
@@ -94,7 +100,7 @@ body {
     right: 0;
     bottom: 0;
     margin: auto;
-    z-index: -1;
+    z-index: 1;
 }
 
 #Twitter {
@@ -112,6 +118,7 @@ body {
     z-index: -1;
 }
 
+/* Contact Data Tag*/
 #Page_Data_Contact {
     text-align: center;
     font-family: trebuchet;
@@ -126,6 +133,7 @@ body {
     z-index: -1;
 }
 
+/*Unused I think*/
 #About_You {
     padding-top: 15px;
     position: fixed;
@@ -141,7 +149,7 @@ body {
     float: left;
 }
 
-
+/*Unused I think*/
 #Text_Search {
     margin: auto;
     font-family: trebuchet;
@@ -244,7 +252,7 @@ p.blocktext {
     margin-left: auto;
     margin-right: auto;
 }
-
+/* Same as <br> function with slightly better formatting*/
 span.a {
     display: block;
 }
@@ -253,34 +261,40 @@ html {
     scroll-behavior: smooth;
 }
 
+/*Portrait Class Img css*/
 .portrait {
     border-radius: 50%;
     height: 250px;
     width: 200px;
 }
-
+/*Merch Class Img css*/
 .merch {
     height: 240px;
     width: 240px;
 }
-
+/*Mail Class Img css*/
 .mail {
     height: 80px;
     width: 80px;
 }
-
+/*Sponsor Class Img css*/
 .sponsors {
     width: 320px;
     height: 120px;
 }
-
+/*Footer Sponsors Class Img css*/
 .footsponsors {
     width: 160px;
     height: 60px;
 }
-
+/*CarPic Class Img css*/
+.CarPic {
+	width:600px;
+	height:450px;
+}
 
 /* Small devices, tablets and phones diplay = 600px and up) */
+/*Below is Euan's sidebar css*/
 
 @media only screen and (max-width: 768px) {
     #btnMobileNav {
