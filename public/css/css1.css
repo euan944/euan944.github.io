@@ -123,3 +123,36 @@ bottom: 0;
 margin: auto;
 z-index: -1;
 }
+
+/*Portrait Class Img css*/
+.portrait {
+    border-radius: 50%;
+    height: 250px;
+    width: 200px;
+}
+/*Merch Class Img css*/
+.merch {
+    height: 240px;
+    width: 240px;
+}
+/*Mail Class Img css*/
+.mail {
+    height: 80px;
+    width: 80px;
+}
+/*Sponsor Class Img css*/
+.sponsors {
+    width: 320px;
+    height: 120px;
+}
+/*Footer Sponsors Class Img css*/
+.footsponsors {
+    width: 160px;
+    height: 60px;
+}
+/*CarPic Class Img css*/
+.CarPic {
+	width:600px;
+	height:450px;
+}
+
