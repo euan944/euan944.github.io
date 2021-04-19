@@ -1,183 +1,242 @@
 ﻿ /*overall colours*/
+ 
  body {
-  color: #192057;
- background-color:#ebf6f9;
+     color: #192057;
+     background-color: #ebf6f9;
  }
  
-  html, body, p, th, td, li, dd, dt {
- 	font: 1em Arial;
+ html,
+ body,
+ p,
+ th,
+ td,
+ li,
+ dd,
+ dt {
+     font: 1em Arial;
  }
  
-  a{
- color:#192057;
-
+ a {
+     color: #192057;
  }
- 
  /*heading styling*/
- h1{
- text-align: center;
- font: 3.5em Arial;
+ 
+ h1 {
+     text-align: center;
+     font: 3.5em Arial;
  }
-
-/*keeps text to right*/
-#container
-{
-	margin-left:350px;
-	margin-right:30px;
-	padding:2px;
-	text-align: center;
-}
-
-table{
-	margin-left:350px;
-	margin-right:30px;
-	padding:2px;
-	text-align: center;
-}
-
-/* Navigation Bar*/
-.sidebar {
-  list-style-type: none;
-  margin: -10px;
-  padding: 50px;
-  background-color: #ebf6f9;
-  	float:left;
-	width: 200px;
-	height: 100%;
-	top: 5px;
-	bottom: 10px;
-	position: fixed;
-	overflow: auto;
-	font: 2em Arial ;
-}
-
-.sidebar a {
-  display: block;
-  color: #0066cc;
-  padding: 15px 1px;
-  text-decoration: none;
-  text-align: center;
-}
-
-/* Change the link color on hover */
-.sidebar a:hover {
-  color: #ff4117;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-
-header {
-  position: fixed;
-  top: 0;
-  height: 40px;
-  width: 100%;
-  background: #192057;
-  z-index:1;	
-}
-
-
-.footer {
-   position: fixed;
-   bottom: 0;
-   height: 90px;
-   width: 100%;
-   background-color: #192057;
-   color: #070100;
-   text-align: center;  
-}
-
-
-button {
-border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  background-color: #192057;
-}
-
-
-
-#Twitter {
-text-align:center;
-font-family : trebuchet;
-font-size:18px;
-width: 50%;
-height: 90%;  
-position: absolute;
-top: 20%;
-left: 0;
-right: 0;
-bottom: 0;
-margin: auto;
-z-index: -1;
-}
-
-/*Portrait Class Img css*/
-.portrait {
-    border-radius: 50%;
-    height: 250px;
-    width: 200px;
-}
-/*Merch Class Img css*/
-.merch {
-    height: 240px;
-    width: 240px;
-}
-/*Mail Class Img css*/
-.mail {
-    height: 80px;
-    width: 80px;
-}
-/*Sponsor Class Img css*/
-.sponsors {
-    width: 320px;
-    height: 120px;
-}
-/*Footer Sponsors Class Img css*/
-.footsponsors {
-    width: 160px;
-    height: 60px;
-}
-/*CarPic Class Img css*/
-.CarPic {
-	width:600px;
-	height:450px;
-}
-
-/* Contact Data Tag*/
-#Page_Data_Contact {
-    text-align: center;
-    font-family: trebuchet;
-    font-size: 18px;
-    width: 50%;
-    height: 60%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 1;
-    margin: auto;
-    z-index: -1;
-    
-}
-
-span.a {
-    display: block;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-.center{
-	margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
+ /*keeps text to right*/
+ 
+ #container {
+     margin-left: 350px;
+     margin-right: 30px;
+     padding: 2px;
+     text-align: center;
+ }
+ 
+ table {
+     margin-left: 350px;
+     margin-right: 30px;
+     padding: 2px;
+     text-align: center;
+ }
+ /* Navigation Bar*/
+ 
+ .sidebar {
+     list-style-type: none;
+     margin: -10px;
+     padding: 50px;
+     background-color: #ebf6f9;
+     float: left;
+     width: 200px;
+     height: 100%;
+     top: 5px;
+     bottom: 10px;
+     position: fixed;
+     overflow: auto;
+     font: 1em Arial;
+ }
+ 
+ .sidebar a {
+     display: block;
+     color: #0066cc;
+     padding: 15px 1px;
+     text-decoration: none;
+     text-align: center;
+ }
+ /* Change the link color on hover */
+ 
+ .sidebar a:hover {
+     color: #ff4117;
+ }
+ 
+ html {
+     scroll-behavior: smooth;
+ }
+ 
+ header {
+     position: fixed;
+     top: 0;
+     height: 40px;
+     width: 100%;
+     background: #192057;
+     z-index: 1;
+ }
+ 
+ .footer {
+     position: fixed;
+     bottom: 0;
+     height: 90px;
+     width: 100%;
+     background-color: #192057;
+     color: #070100;
+     text-align: center;
+ }
+ 
+ button {
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     background-color: #192057;
+ }
+ 
+ #Twitter {
+     text-align: center;
+     font-family: trebuchet;
+     font-size: 18px;
+     width: 50%;
+     height: 90%;
+     position: absolute;
+     top: 20%;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     margin: auto;
+     z-index: -1;
+ }
+ /*Portrait Class Img css*/
+ 
+ .portrait {
+     border-radius: 50%;
+     height: 250px;
+     width: 200px;
+ }
+ /*Merch Class Img css*/
+ 
+ .merch {
+     height: 240px;
+     width: 240px;
+ }
+ /*Mail Class Img css*/
+ 
+ .mail {
+     height: 80px;
+     width: 80px;
+ }
+ /*Sponsor Class Img css*/
+ 
+ .sponsors {
+     width: 320px;
+     height: 120px;
+ }
+ /*Footer Sponsors Class Img css*/
+ 
+ .footsponsors {
+     width: 160px;
+     height: 60px;
+ }
+ /*CarPic Class Img css*/
+ 
+ .CarPic {
+     width: 600px;
+     height: 450px;
+ }
+ /* Contact Data Tag*/
+ 
+ #Page_Data_Contact {
+     text-align: center;
+     font-family: trebuchet;
+     font-size: 18px;
+     width: 50%;
+     height: 60%;
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 1;
+     margin: auto;
+     z-index: -1;
+ }
+ 
+ span.a {
+     display: block;
+ }
+ 
+ html {
+     scroll-behavior: smooth;
+ }
+ 
+ .center {
+     margin-left: auto;
+     margin-right: auto;
+     width: 40%;
+ }
+ /*Below is Euan's sidebar css*/
+ 
+ @media only screen and (max-width: 768px) {
+     #btnMobileNav {
+         background: none;
+         border: none;
+         cursor: pointer;
+         display: initial;
+         float: left;
+         font-size: 2em;
+     }
+     nav {
+         display: none;
+     }
+     ul,
+     ul li {
+         clear: both;
+         display: block;
+         float: none;
+     }
+     li {
+         font-size: 1.5em;
+         margin: 5px 0;
+         padding: 10px;
+     }
+     li a {
+         color: white;
+     }
+     .active {
+         border-bottom: none;
+     }
+ }
+ /*  tablets display = 770px and up */
+ 
+ @media only screen and (min-width: 769px) {
+     #btnMobileNav {
+         display: none;
+     }
+     nav {
+         display: initial;
+     }
+     li a:hover {
+         background-color: #0065be;
+         border-radius: 6px;
+         color: white;
+         -webkit-transition: 0.2s;
+         -o-transition: 0.2s;
+         transition: 0.2s;
+         -webkit-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+         transition-timing-function: linear;
+         -webkit-transition-duration: 0.2s;
+     }
+ }
