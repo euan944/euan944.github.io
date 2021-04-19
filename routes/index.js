@@ -48,8 +48,8 @@ router.get('/home', function(req, res) {
     res.redirect('/html/HomePage.html');
 });
 
-router.get('/Merch', function(req, res) {
-    res.redirect('/html/Merch.html');
+router.get('/progress', function(req, res) {
+    res.redirect('/html/OurProgress.html');
 });
 
 router.get('/sponsors', function(req, res) {
