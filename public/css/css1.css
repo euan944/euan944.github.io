@@ -1,6 +1,6 @@
- /*overall colours*/
+﻿ /*overall colours*/
  body {
-  color: #0066cc;
+  color: #192057;
  background-color:#ebf6f9;
  }
  
@@ -9,7 +9,8 @@
  }
  
   a{
- color:#ff4117;
+ color:#192057;
+
  }
  
  /*heading styling*/
@@ -73,7 +74,7 @@ header {
   top: 0;
   height: 40px;
   width: 100%;
-  background: #0066cc;
+  background: #192057;
   z-index:1;	
 }
 
@@ -83,28 +84,23 @@ header {
    bottom: 0;
    height: 90px;
    width: 100%;
-   background-color: #0066cc;
+   background-color: #192057;
    color: #070100;
    text-align: center;  
 }
 
 
-.button {
-  background-color: #3c94c3;
-  font-size: 20px;
-  color: black;
+button {
+border: none;
+  color: white;
   padding: 15px 32px;
-  text-align: centre;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
-  font-family : trebuchet;
-  width: 55px;
-  height: 50px;
-  	border-style: solid;
-   	  border-width: thin;
-  	border-color: #fe1601;
-
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #192057;
 }
 
 
@@ -170,4 +166,13 @@ z-index: -1;
     margin: auto;
     z-index: -1;
 }
+
+span.a {
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 
