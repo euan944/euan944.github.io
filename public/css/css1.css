@@ -44,14 +44,9 @@
  
  .sidebar {
      list-style-type: none;
-     margin: -10px;
-     padding: 50px;
+     padding: 35px;
      background-color: #ebf6f9;
      float: left;
-     width: 200px;
-     height: 100%;
-     top: 5px;
-     bottom: 10px;
      position: fixed;
      overflow: auto;
      font: 1em Arial;
